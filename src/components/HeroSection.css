@@ -1,0 +1,8 @@
+.container {
+    color: black;
+    flex: 1;
+}
+
+.parallax-container{
+    background-size: auto;
+}
