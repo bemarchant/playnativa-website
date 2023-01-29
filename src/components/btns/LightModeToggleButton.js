@@ -17,8 +17,8 @@ export function LightModeToggleButton() {
         onClick={() => setColorMode(colorMode === "light" ? "dark" : "light")}
       />
       <label for="checkbox" className="label">
-        <FontAwesomeIcon icon={faMoon} />
         <FontAwesomeIcon icon={faSun} />
+        <FontAwesomeIcon icon={faMoon} />
         <div className="ball"></div>
       </label>
     </div>
